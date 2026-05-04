@@ -1,2 +1,4 @@
 Sendo realizado utilizando métodologias ágeis.
 Pequeno erro na fase de teste.
+Conteúdo apresentado veio com falhas constantes.
+Erros na dashboard principal.
