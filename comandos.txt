@@ -19,3 +19,11 @@ git add img/
 git merge desenvolvimento -m "Realiando o merge da desenvolvimento."
 git commit -am "Alterando os comandos e adicionando a pasta imagens."
 git commit -am "Adicionando o printFinal e finalização dos comandos.txt"
+git remote add origin git@github.com:jvsobroza/AtividadeGit.git
+git push origin master
+git checkout desenvolvimento
+git push origin desenvolvimento
+git checkout revisao
+git push origin revisao
+git checkout master
+git commit -am "Adição das branchs no github e finalização agora do comandos.txt"
