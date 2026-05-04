@@ -1,0 +1,3 @@
+git config --global user.name "João Victor Sobroza Dal Ross"
+git config --global user.email "joaovictor0908.jv@gmail.com"
+git init (criação do repositório)
