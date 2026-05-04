@@ -1,3 +1,18 @@
 git config --global user.name "João Victor Sobroza Dal Ross"
 git config --global user.email "joaovictor0908.jv@gmail.com"
 git init (criação do repositório)
+git add .
+git commit -m "Criação do repositório com os arquivos da atividade 1, 2 e 3"
+git branch desenvolvimento
+git branch revisao
+git checkout desenvolvimento
+git commit -am "Adioção de texto nos 3 arquivos principais."
+git checkout revisao
+git commit -am "Sugestões no desenvolvimento e introdução, para melhoria do projeto."
+git checkout desenvolvimento
+git branch --no-merged
+git merge revisao -m "Realizando o merge de revisão."
+git add .
+git commit -m "Arrumando os conflitos no merge."
+git checkout master
+git merge desenvolvimento -m "Realiando o merge da desenvolvimento."
