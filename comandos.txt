@@ -15,4 +15,7 @@ git merge revisao -m "Realizando o merge de revisão."
 git add .
 git commit -m "Arrumando os conflitos no merge."
 git checkout master
+git add img/
 git merge desenvolvimento -m "Realiando o merge da desenvolvimento."
+git commit -am "Alterando os comandos e adicionando a pasta imagens."
+git commit -am "Adicionando o printFinal e finalização dos comandos.txt"
